@@ -33,7 +33,7 @@ const ContactPage = () => {
         <ContactCode />
       </div>
       <div>
-        <h3 className={styles.heading}>Or Fill Out This Form</h3>
+        <h3 className={styles.heading}>Or Fill Out This Form - Currently not set up</h3>
         <form className={styles.form} onSubmit={submitForm}>
           <div className={styles.flex}>
             <div>
@@ -45,6 +45,7 @@ const ContactPage = () => {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
+                disabled
               />
             </div>
             <div>
@@ -56,6 +57,7 @@ const ContactPage = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
+                disabled
               />
             </div>
           </div>
@@ -68,6 +70,7 @@ const ContactPage = () => {
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
               required
+              disabled
             />
           </div>
           <div>
@@ -79,9 +82,10 @@ const ContactPage = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required
+              disabled
             ></textarea>
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit" disabled>Submit</button>
         </form>
       </div>
     </div>
