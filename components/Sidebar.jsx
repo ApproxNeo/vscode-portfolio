@@ -52,6 +52,7 @@ const Sidebar = () => {
         {sidebarTopItems.map(({ Icon, path }) => (
           <Link href={path} key={path}>
             <div
+              title={path}
               className={`${styles.iconContainer} ${
                 router.pathname === path && styles.active
               }`}
@@ -60,7 +61,7 @@ const Sidebar = () => {
                 fill={
                   router.pathname === path
                     ? 'rgb(225, 228, 232)'
-                    : 'rgb(106, 115, 125)'
+                    : 'rgb(106, 115, 125)' 
                 }
                 className={styles.icon}
               />

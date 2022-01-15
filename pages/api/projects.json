@@ -33,5 +33,23 @@
     "tags": ["next", "css-modules"],
     "source_code": "https://www.approxneo.me",
     "demo": "http://www.approxneo.me"
+  },
+  {
+    "id": 4,
+    "name": "Placeholder",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "Placeholder",
+    "tags": ["next", "css-modules"],
+    "source_code": "https://www.approxneo.me",
+    "demo": "http://www.approxneo.me"
+  },
+  {
+    "id": 4,
+    "name": "Placeholder",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "Placeholder",
+    "tags": ["next", "css-modules"],
+    "source_code": "https://www.approxneo.me",
+    "demo": "http://www.approxneo.me"
   }
 ]

@@ -30,17 +30,17 @@
   background: rgba(67, 153, 52, 0.25);
 }
 
-.redux {
+.cpp {
   border: 0.1rem solid rgb(118, 74, 188);
 }
-.redux:hover {
+.cpp:hover {
   background: rgba(118, 74, 188, 0.25);
 }
 
-.razorpay {
+.python {
   border: 0.1rem solid rgb(82, 143, 240);
 }
-.razorpay:hover {
+.python:hover {
   background: rgba(82, 143, 240, 0.25);
 }
 
