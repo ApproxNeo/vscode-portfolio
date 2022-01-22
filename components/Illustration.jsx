@@ -9,7 +9,7 @@ function Illustration(props) {
       {...props}
     >
 
-      <circle cx={80} cy={60} r={60} fill="#D7F484" />
+      <circle cx={80} cy={60} r={60} fill="currentColor" />
       <circle cx={50} cy={250} r={37.5} fill="currentColor" />
       <path
         fillRule="evenodd"

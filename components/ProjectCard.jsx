@@ -19,20 +19,18 @@ const ProjectCard = ({ project }) => {
           {project.source_code && (
             <a
               href={project.source_code}
-              target="_blank"
               rel="noopener noreferrer"
               className={styles.underline}
             >
-              Source Code
+              Find out more!
             </a>
           )}
           <a
             href={project.demo}
-            target="_blank"
             rel="noopener noreferrer"
             className={styles.underline}
           >
-            Live Demo
+            Goto!
           </a>
         </div>
       </div>

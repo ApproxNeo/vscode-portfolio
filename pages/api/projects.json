@@ -1,47 +1,27 @@
 [
   {
     "id": 1,
-    "name": "Placeholder",
-    "image": "https://imgur.com/kbGs6zH.png",
-    "description": "Placeholder",
-    "tags": ["next", "node", "mongodb", "tailwind", "react-query"],
-    "source_code": "https://www.approxneo.me",
-    "demo": "https://www.approxneo.me"
+    "name": "Service Learning",
+    "image": "/Yongen.png",
+    "description": "Learning Canva!",
+    "tags": ["SL"],
+    "demo": "/projects/1"
   },
   {
     "id": 2,
-    "name": "Placeholder",
-    "image": "https://imgur.com/tAZotn3.png",
-    "description": "Placeholder",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "demo": "https://www.approxneo.me"
+    "name": "Webinar",
+    "image": "/Ticket.jpg",
+    "description": "Dangers of Log4J",
+    "tags": ["Webinar"],
+    "demo": "/projects/2"
   },
   {
     "id": 3,
-    "name": "Placeholder",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "Placeholder",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://www.approxneo.me",
-    "demo": "https://www.approxneo.me"
-  },
-  {
-    "id": 4,
-    "name": "Placeholder",
-    "image": "https://imgur.com/mKkz0iz.png",
-    "description": "Placeholder",
-    "tags": ["next", "css-modules"],
-    "source_code": "https://www.approxneo.me",
-    "demo": "http://www.approxneo.me"
-  },
-  {
-    "id": 4,
-    "name": "Placeholder",
-    "image": "https://imgur.com/mKkz0iz.png",
-    "description": "Placeholder",
-    "tags": ["next", "css-modules"],
-    "source_code": "https://www.approxneo.me",
-    "demo": "http://www.approxneo.me"
+    "name": "Webinar",
+    "image": "/Forensics.jpg",
+    "description": "Digital Forensics: Hardware",
+    "tags": ["Webinar"],
+    "demo": "/projects/3"
   },
   {
     "id": 4,

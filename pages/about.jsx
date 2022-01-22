@@ -32,6 +32,7 @@ const AboutPage = () => {
       </div>
 
       <h1>Experiences / Roles</h1>
+      
       <hr></hr>
       <div className={styles.card} >
         <div className={styles.container}>
@@ -44,8 +45,10 @@ const AboutPage = () => {
           </div>
         </div>
         <p>As the Head of Tech, I faciliate the backend of our activities. 
-           From Coding Bootcamps to Competitive Programming Competition, 
-           I play an active part in
+           From Coding Bootcamps to Competitive Programming Competitions, 
+           I play an active part in ensuring that the tech side of things work out.
+
+
         </p>
        
       </div>
