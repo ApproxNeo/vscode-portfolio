@@ -71,11 +71,11 @@ export async function getStaticProps() {
   let repos = await repoRes.json();
   repos = repos
     .sort((a, b) => b.stargazers_count - a.stargazers_count)
-    .slice(0, 10);
+    .slice(0, 15);
 
   return {
     props: { title: 'GitHub', repos, user },
-    revalidate: 10,
+    revalidate: 15,
   };
 }
 

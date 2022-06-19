@@ -7,9 +7,11 @@ export default function HomePage() {
     <>
       <div className={styles.container}>
         <div className={styles.background}>
-          <h1>If only i hv</h1>
-          <h1>opposable</h1>
-          <h1>thumbs</h1>
+          <h1>Beep Boop</h1>
+          <h5>01001000 01100001 01101101 01110011</h5>
+          <h5>01110100 01100101 01110010 01110011</h5>
+          <h1>Boop Beep</h1>
+
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
